@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/*ESSE FOI O MEU PRIMEIRO PROJETO, NUNCA MONTEI UMA PÁGINA WEB ANTES DESSE PROJETO*/
+/*ESSE FOI O MEU PRIMEIRO PROJETO, NUNCA MONTEI UMA PÁGINA WEB ANTES DESSE PROJETO*/
+/*ESSE FOI O MEU PRIMEIRO PROJETO, NUNCA MONTEI UMA PÁGINA WEB ANTES DESSE PROJETO*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*------------PRIMEIRA PAGINA-------------*/
+/*--------HEADER E NAV----------*/
+header, #kindred{
+    width:100%;
+    height:350px;
+}
+
+
+nav{
+    padding: 10px;
+    background-color: #ff5959;
+    text-align: center;
+}
+
+#menu_letras{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+#menu_letras:link, #menu_letras:hover, #menu_letras:visited{
+    text-decoration: none;
+}
+
+#menu_letras:hover{
+    opacity: 1;
+}
+
+/*------- FIM HEADER E NAV--------*/
+/*------- LEITURA IMPORTANTE------*/
+#titulo_principal{
+    text-align: center;
+    color: #ff5959;
+    text-shadow: #3b0000 2px 2px 2px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+article{
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+/*------- FIM DA LEITURA IMPORTANTE------*/
+/*----------- BENEFICIOS --------*/
+#fundo_beneficios{
+    background-color: #ff5959;
+    color: white;
+    padding: 30px;
+}
+
+#beneficios_de_jogar_lol{
+    text-shadow: black 0px 2px 2px;
+}
+
+ul{
+    font-family: 'Montserrat', sans-serif; 
+    margin-left: 40px;
+}
+/*----------- FIM BENEFICIOS --------*/
+#ilegalidades{
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+.scripters_elojobers{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #ff5959;
+    text-shadow: #3b0000 2px 2px 2px;
+    margin-left: 20px;
+}
+
+.h2_scripters_elojobers{
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+
+/*TRABALHO NOS CARDS*/
+.card{
+    background-color: white;
+    margin-bottom: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+
+}
+
+.card h1{
+    text-align: center;
+    color: #ff5959;
+    text-shadow: #3b0000 2px 2px 2px;
+    margin-bottom: 20px;
+}
+
+#container_geral_cards{
+    display: flex;
+
+}
+
+.img_card{
+    height: 400px;
+    border-radius: 10px;
+}
+/*FIM DOTRABALHO NOS CARDS*/
+h1{
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-family: 'Lobster', cursive;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+
+
+footer{
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+    color: white;
+    border-radius: 2px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+}
+#segredo:visited, #segredo:link, #segredo:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*   ANIMACAO     */
+
+*{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade{
+
+from{
+    opacity: 0;
+    transform: scale(0.9);
+}
+to{
+    opacity: 1;
+    transform: scale(1);
+}}
+
+/*--------FORMULÁRIO-----------*/
+
+
+.titulo_formulario{
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+
+.body_formulario{
+    background: #fd746c;
+    background: -webkit-linear-gradient(to left, #ff9068, #fd746c); 
+    background: linear-gradient(to left, #ff9068, #fd746c);
+    
+}
+
+.container_formulario{
+    background-color: white;
+    padding-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+    box-shadow: 0px 0px 6px 0 rgba(255,255,255,0.8);
+    border-radius: 10px;
+}
+
+input, select{
+    border-radius: 5px;
+    background: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+input:focus{
+    outline: none;    
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+select:focus{
+    outline:none;
+}
